@@ -1,3 +1,7 @@
+# Game Results
+
+## 2025-07-05
+
 andy5995: 19500<br>
 Jammy: 20500<br>
 pot: 1700<br>
@@ -32,4 +36,9 @@ andy5995: 20750<br>
 Jammy: 19250<br>
 pot: 800<br>
 Jammy wins with High Card
+
+andy5995: 20350<br>
+Jammy: 19650<br>
+pot: 200<br>
+andy5995 wins
 
