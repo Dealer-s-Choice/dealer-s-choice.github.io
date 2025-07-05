@@ -42,3 +42,43 @@ Jammy: 19650<br>
 pot: 200<br>
 andy5995 wins
 
+andy5995: 20400<br>
+Jammy: 19600<br>
+pot: 500<br>
+andy5995 wins with High Card
+
+andy5995: 20650<br>
+Jammy: 19350<br>
+pot: 500<br>
+andy5995 wins with Two Pair
+
+andy5995: 20900<br>
+Jammy: 19100<br>
+pot: 800<br>
+andy5995 wins with Pair
+
+andy5995: 21300<br>
+Jammy: 18700<br>
+pot: 1200<br>
+andy5995 wins with Pair
+
+andy5995: 21900<br>
+Jammy: 18100<br>
+pot: 950<br>
+Jammy wins
+
+andy5995: 21550<br>
+Jammy: 18450<br>
+pot: 1100<br>
+andy5995 wins with Pair
+
+andy5995: 22100<br>
+Jammy: 17900<br>
+pot: 900<br>
+andy5995 wins with Pair
+
+andy5995: 22550<br>
+Jammy: 17450<br>
+pot: 1100<br>
+andy5995 wins with Two Pair
+
