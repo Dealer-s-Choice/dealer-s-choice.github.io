@@ -82,3 +82,90 @@ Jammy: 17450<br>
 pot: 1100<br>
 andy5995 wins with Two Pair
 
+## 2025-07-08
+
+andy5995: 20000<br>
+Jammy: 20000<br>
+pot: 1200<br>
+Jammy wins with Pair
+
+andy5995: 19400<br>
+Jammy: 20600<br>
+pot: 2100<br>
+andy5995 wins with Flush
+
+andy5995: 20450<br>
+Jammy: 19550<br>
+pot: 800<br>
+Jammy wins
+
+andy5995: 20100<br>
+Jammy: 19900<br>
+pot: 300<br>
+andy5995 wins with Pair
+
+andy5995: 20250<br>
+Jammy: 19750<br>
+pot: 600<br>
+Jammy wins
+
+andy5995: 20000<br>
+Jammy: 20000<br>
+pot: 800<br>
+andy5995 wins
+
+andy5995: 20350<br>
+Jammy: 19650<br>
+pot: 1100<br>
+Jammy wins with High Card
+
+andy5995: 19800<br>
+Jammy: 20200<br>
+pot: 700<br>
+Jammy wins with Pair
+
+andy5995: 19450<br>
+Jammy: 20550<br>
+pot: 300<br>
+Jammy wins with High Card
+
+andy5995: 19300<br>
+Jammy: 20700<br>
+pot: 700<br>
+andy5995 wins with Pair
+
+andy5995: 19650<br>
+Jammy: 20350<br>
+pot: 1900<br>
+Jammy wins with Two Pair
+
+andy5995: 18700<br>
+Jammy: 21300<br>
+pot: 2100<br>
+andy5995 wins with Pair
+
+andy5995: 19750<br>
+Jammy: 20250<br>
+pot: 8600<br>
+andy5995 wins with Three-of-a-Kind
+
+andy5995: 24050<br>
+Jammy: 15950<br>
+pot: 1100<br>
+andy5995 wins with Two Pair
+
+andy5995: 24600<br>
+Jammy: 15400<br>
+pot: 800<br>
+Jammy wins
+
+andy5995: 24250<br>
+Jammy: 15750<br>
+pot: 750<br>
+Jammy wins
+
+andy5995: 24000<br>
+Jammy: 16000<br>
+pot: 600<br>
+andy5995 wins
+
