@@ -7,3 +7,5 @@
 [![Screenshot](Screenshot_2025-06-17_00-56-17.png)](Screenshot_2025-06-17_00-56-17.png)
 
 [![7-card stud](7-card-stud_2025-07-06_20-32-00.png)](7-card-stud_2025-07-06_20-32-00.png)
+
+[![Exchanging Wild Cards](dealers-choice_wild-card_exchange-columns.png)](dealers-choice_wild-card_exchange-columns.png)
