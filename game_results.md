@@ -249,3 +249,85 @@ Jammy: 19600<br>
 pot: 1150<br>
 Jammy wins
 
+## 2025-07-13
+
+### Game: 5-card stud
+
+SebastianB: 20000<br>
+andy5995: 20000<br>
+Jammy: 20000<br>
+pot: 1650<br>
+andy5995 wins with Pair
+
+### Game: 5-card draw
+
+SebastianB: 19450<br>
+andy5995: 21100<br>
+Jammy: 19450<br>
+pot: 1200<br>
+andy5995 wins with Pair
+
+### Game: 7-card stud / Deuces Wild
+
+SebastianB: 19050<br>
+andy5995: 21900<br>
+Jammy: 19050<br>
+pot: 950<br>
+andy5995 wins with Pair
+
+### Game: 5-card draw
+
+SebastianB: 18700<br>
+andy5995: 22500<br>
+Jammy: 18800<br>
+pot: 1350<br>
+andy5995 wins with Pair
+
+### Game: 5-card draw / Deuces Wild
+
+SebastianB: 18250<br>
+andy5995: 23400<br>
+Jammy: 18350<br>
+pot: 1650<br>
+andy5995 wins
+
+### Game: 5-card double draw / Deuces Wild
+
+SebastianB: 17700<br>
+andy5995: 24500<br>
+Jammy: 17800<br>
+pot: 5100<br>
+andy5995 wins with Four-of-a-Kind
+
+### Game: 5-card double draw / Deuces Wild
+
+SebastianB: 16000<br>
+andy5995: 27900<br>
+Jammy: 16100<br>
+pot: 800<br>
+Jammy wins
+
+### Game: 5-card draw
+
+SebastianB: 15950<br>
+andy5995: 27650<br>
+Jammy: 16400<br>
+pot: 650<br>
+SebastianB wins
+
+### Game: 7-card stud / Deuces Wild
+
+SebastianB: 16350<br>
+andy5995: 27500<br>
+Jammy: 16150<br>
+pot: 1350<br>
+andy5995 wins with Two Pair
+
+### Game: 5-card draw / Deuces Wild
+
+SebastianB: 15800<br>
+andy5995: 28300<br>
+Jammy: 15900<br>
+pot: 1550<br>
+SebastianB wins
+
