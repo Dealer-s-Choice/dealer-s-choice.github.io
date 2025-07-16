@@ -1,5 +1,7 @@
 # Screenshots
 
+[![Game choice menu/lobby](dealers-choice-game-choice-menu_lobby_2025-07-12.png)](dealers-choice-game-choice-menu_lobby_2025-07-12.png)
+
 [![5-card stud, 4 cards](5_card_stud_4_cards_20250625.png)](5_card_stud_4_cards_20250625.png)
 
 [![3x4 Screenshot](3x4_Screenshot_2025-06-18_00-05-19.png)](3x4_Screenshot_2025-06-18_00-05-19.png)
