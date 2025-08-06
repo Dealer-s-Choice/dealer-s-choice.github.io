@@ -331,3 +331,124 @@ Jammy: 15900<br>
 pot: 1550<br>
 SebastianB wins
 
+## 2025-08-06
+
+### Game: 5-card draw / Deuces Wild
+
+Jammy: 20000<br>
+andy5995: 20000<br>
+pot: 1000<br>
+andy5995 wins 1000 with Three-of-a-Kind
+
+### Game: 7-card stud / Deuces Wild
+
+Jammy: 19500<br>
+andy5995: 20500<br>
+pot: 100<br>
+andy5995 wins 100
+
+### Game: 7-card stud / Deuces Wild
+
+Jammy: 20000<br>
+andy5995: 20550<br>
+pot: 1100<br>
+andy5995 wins 1100 with Pair
+
+### Game: 5-card draw / Deuces Wild
+
+Jammy: 19450<br>
+andy5995: 21100<br>
+pot: 500<br>
+andy5995 wins 500 with Two Pair
+
+### Game: 5-card stud / Deuces Wild
+
+Jammy: 19200<br>
+andy5995: 21350<br>
+pot: 900<br>
+andy5995 wins 900 with High Card
+
+### Game: 7-card stud / Deuces Wild
+
+Jammy: 18750<br>
+andy5995: 21800<br>
+pot: 1400<br>
+andy5995 wins 1400
+
+### Game: 5-card double draw / Deuces Wild
+
+Jammy: 18100<br>
+andy5995: 22450<br>
+pot: 1700<br>
+Jammy wins 1700 with Straight
+
+### Game: 5-card showdown / Deuces Wild
+
+Jammy: 18950<br>
+andy5995: 21600<br>
+pot: 500<br>
+andy5995 wins 500 with Three-of-a-Kind
+
+### Game: 5-card stud / Deuces Wild
+
+Jammy: 18700<br>
+andy5995: 21850<br>
+pot: 900<br>
+andy5995 wins 900 with High Card
+
+### Game: 5-card double draw / Deuces Wild
+
+Jammy: 18250<br>
+andy5995: 22300<br>
+pot: 700<br>
+Jammy wins 700 with Full House
+
+### Game: 5-card stud
+
+Jammy: 18600<br>
+andy5995: 21950<br>
+pot: 900<br>
+Jammy wins 900 with Pair
+
+### Game: 5-card draw
+
+Jammy: 19050<br>
+andy5995: 21500<br>
+pot: 800<br>
+Jammy wins 800 with Three-of-a-Kind
+
+### Game: 5-card stud / Deuces Wild
+
+andy5995: 21100<br>
+Jammy: 19450<br>
+pot: 900<br>
+Jammy wins 900 with Three-of-a-Kind
+
+### Game: 5-card showdown
+
+andy5995: 20650<br>
+Jammy: 19900<br>
+pot: 300<br>
+andy5995 wins 300 with Pair
+
+### Game: 5-card double draw
+
+Jammy: 19750<br>
+andy5995: 20800<br>
+pot: 700<br>
+andy5995 wins 700 with Two Pair
+
+### Game: 7-card stud
+
+Jammy: 19400<br>
+andy5995: 21150<br>
+pot: 2300<br>
+Jammy wins 2300 with Pair
+
+### Game: 5-card double draw / Deuces Wild
+
+andy5995: 20000<br>
+Jammy: 20550<br>
+pot: 3000<br>
+Jammy wins 3000 with Pair
+
