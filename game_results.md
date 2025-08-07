@@ -452,3 +452,68 @@ Jammy: 20550<br>
 pot: 3000<br>
 Jammy wins 3000 with Pair
 
+## 2025-08-06
+
+### Game: 5-card double draw / Deuces Wild
+
+Bighead: 20000<br>
+andy5995: 20000<br>
+pot: 700<br>
+Bighead wins 700 with Pair
+
+### Game: 7-card stud / Deuces Wild
+
+Bighead: 20350<br>
+andy5995: 19650<br>
+pot: 1100<br>
+Bighead wins 1100 with Full House
+
+### Game: 7-card stud / Deuces Wild
+
+Bighead: 20900<br>
+andy5995: 19100<br>
+pot: 1100<br>
+andy5995 wins 1100 with Pair
+
+### Game: 5-card double draw / Deuces Wild
+
+Bighead: 20350<br>
+andy5995: 19650<br>
+pot: 2000<br>
+andy5995 wins 2000 with Four-of-a-Kind
+
+### Game: 5-card draw
+
+Bighead: 19350<br>
+andy5995: 20650<br>
+pot: 400<br>
+Bighead wins 400
+
+### Game: 5-card showdown
+
+andy5995: 20500<br>
+Bighead: 19500<br>
+pot: 300<br>
+Bighead wins 300 with Two Pair
+
+### Game: 5-card showdown
+
+andy5995: 20350<br>
+Bighead: 19650<br>
+pot: 200<br>
+andy5995 wins 200
+
+### Game: 5-card double draw / Deuces Wild
+
+Bighead: 19600<br>
+andy5995: 20400<br>
+pot: 2200<br>
+andy5995 wins 2200 with Four-of-a-Kind
+
+### Game: 5-card draw
+
+andy5995: 21500<br>
+Bighead: 18500<br>
+pot: 500<br>
+Bighead wins 500 with Two Pair
+
