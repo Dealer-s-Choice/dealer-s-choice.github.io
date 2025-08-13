@@ -664,3 +664,61 @@ andy5995: 20000<br>
 pot: 300<br>
 andy5995 wins 300 with Three-of-a-Kind
 
+## 2025-08-13
+
+### Game: 5-card double draw / Deuces Wild
+
+Jammy: 20000<br>
+andy5995: 20000<br>
+pot: 1000<br>
+Jammy wins 1000 with Four-of-a-Kind
+
+### Game: 7-card stud
+
+andy5995: 19500<br>
+Jammy: 20500<br>
+pot: 1400<br>
+Jammy wins 1400
+
+### Game: 5-card double draw
+
+Jammy: 20950<br>
+andy5995: 19050<br>
+pot: 1500<br>
+andy5995 wins 1500 with Two Pair
+
+### Game: 5-card stud / Deuces Wild
+
+andy5995: 19800<br>
+Jammy: 20200<br>
+pot: 900<br>
+andy5995 wins 900 with Pair
+
+### Game: 5-card showdown
+
+Jammy: 19750<br>
+andy5995: 20250<br>
+pot: 300<br>
+andy5995 wins 300 with Pair
+
+### Game: 5-card double draw / Deuces Wild
+
+andy5995: 20400<br>
+Jammy: 19600<br>
+pot: 3300<br>
+andy5995 wins 3300 with Five-of-a-Kind
+
+### Game: 7-card stud
+
+Jammy: 17950<br>
+andy5995: 22050<br>
+pot: 1100<br>
+andy5995 wins 1100 with Two Pair
+
+### Game: 5-card showdown
+
+Jammy: 17400<br>
+andy5995: 22600<br>
+pot: 1100<br>
+Jammy wins 1100 with Pair
+
