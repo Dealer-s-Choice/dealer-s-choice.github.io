@@ -850,3 +850,91 @@ Bighead: 18300<br>
 pot: 500<br>
 andy5995 wins 500 with Pair
 
+## 2025-09-07
+
+## 2025-09-07
+
+### Game: 5-card draw
+
+Jammy: 20000<br>
+andy5995: 20000<br>
+pot: 300<br>
+andy5995 wins 300
+
+### Game: 7-card stud
+
+andy5995: 20150<br>
+Jammy: 19850<br>
+pot: 2100<br>
+Jammy wins 2100 with Three-of-a-Kind
+
+### Game: 5-card draw / Deuces Wild
+
+Jammy: 20900<br>
+andy5995: 19100<br>
+pot: 550<br>
+Jammy wins 550
+
+### Game: 5-card double draw / Deuces Wild
+
+andy5995: 18950<br>
+Jammy: 21050<br>
+pot: 950<br>
+Jammy wins 950
+
+### Game: 7-card stud / Deuces Wild
+
+Jammy: 21400<br>
+andy5995: 18600<br>
+pot: 1400<br>
+Jammy wins 1400 with Four-of-a-Kind
+
+### Game: 5-card showdown / Deuces Wild
+
+andy5995: 17900<br>
+Jammy: 22100<br>
+pot: 800<br>
+Jammy wins 800 with Pair
+
+### Game: 5-card double draw
+
+Jammy: 22500<br>
+andy5995: 17500<br>
+pot: 500<br>
+andy5995 wins 500 with Pair
+
+### Game: 5-card stud
+
+andy5995: 17750<br>
+Jammy: 22250<br>
+pot: 1100<br>
+andy5995 wins 1100 with High Card
+
+### Game: 5-card double draw
+
+Jammy: 21700<br>
+andy5995: 18300<br>
+pot: 1500<br>
+andy5995 wins 1500 with Two Pair
+
+### Game: 5-card draw / Deuces Wild
+
+andy5995: 19050<br>
+Jammy: 20950<br>
+pot: 750<br>
+Jammy wins 750
+
+### Game: 7-card stud
+
+Jammy: 21200<br>
+andy5995: 18800<br>
+pot: 1300<br>
+andy5995 wins 1300
+
+### Game: 5-card draw / Deuces Wild
+
+andy5995: 19450<br>
+Jammy: 20550<br>
+pot: 400<br>
+Jammy wins 400
+
