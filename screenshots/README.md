@@ -2,7 +2,7 @@
 
 [![Discarding](dealers-choice_discarding-2025-07-19.gif)](dealers-choice_discarding-2025-07-19.gif)
 
-[![Three Players in Lobby](/home/andy/Downloads/dealers-choice-3-players-lobby-Screenshot_2025-08-11_20-41-35.png)](/home/andy/Downloads/dealers-choice-3-players-lobby-Screenshot_2025-08-11_20-41-35.png)
+[![Lobby/Game Choices](dealers_choice_lobby_2026-01-24_10-40-42.png)](dealers_choice_lobby_2026-01-24_10-40-42.png)
 
 [![Four Players 5 card draw](4players_5_card_draw_Screenshot_2025-08-24_16-27-59.png)](4players_5_card_draw_Screenshot_2025-08-24_16-27-59.png)
 
