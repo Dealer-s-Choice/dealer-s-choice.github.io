@@ -1004,3 +1004,228 @@ Firebeavis: 24250<br>
 pot: 150<br>
 Bighead wins 150
 
+## 2026-02-15
+
+### Game: 5-card draw
+
+MadGraNny: 20000<br>
+andy5995: 20000<br>
+Jammy: 20000<br>
+pot: 650<br>
+MadGraNny wins 650 with Two Pair
+
+### Game: 5-card double draw
+
+andy5995: 19750<br>
+Jammy: 19850<br>
+MadGraNny: 20400<br>
+pot: 750<br>
+andy5995 wins 750 with Pair
+
+### Game: 6-card stud
+
+Jammy: 19600<br>
+MadGraNny: 20150<br>
+Bighead: 20000<br>
+andy5995: 20250<br>
+pot: 1600<br>
+MadGraNny wins 1600 with Pair
+
+### Game: California lowball
+
+MadGraNny: 21150<br>
+Bighead: 19950<br>
+andy5995: 19900<br>
+Jammy: 19000<br>
+pot: 750<br>
+MadGraNny wins 750
+
+### Game: 5-card showdown
+
+andy5995: 19750<br>
+Jammy: 18850<br>
+MadGraNny: 21500<br>
+Bighead: 19900<br>
+pot: 400<br>
+andy5995 wins 400 with Pair
+
+### Game: 6-card stud / Deuces Wild
+
+Jammy: 18700<br>
+MadGraNny: 21450<br>
+Bighead: 19850<br>
+andy5995: 20000<br>
+pot: 1300<br>
+Bighead wins 1300
+
+### Game: 5-card draw / Deuces Wild
+
+MadGraNny: 21300<br>
+Bighead: 20650<br>
+andy5995: 19850<br>
+Jammy: 18200<br>
+pot: 1200<br>
+andy5995 wins 1200 with Three-of-a-Kind
+
+### Game: 7-card stud
+
+Bighead: 20300<br>
+andy5995: 20700<br>
+Jammy: 17950<br>
+MadGraNny: 21050<br>
+pot: 1700<br>
+andy5995 wins 1700 with Pair
+
+### Game: 5-card showdown
+
+andy5995: 21650<br>
+Jammy: 17200<br>
+MadGraNny: 21000<br>
+Bighead: 20150<br>
+pot: 400<br>
+andy5995 wins 400 with Pair
+
+### Game: California lowball
+
+Jammy: 17050<br>
+MadGraNny: 20950<br>
+Bighead: 20100<br>
+andy5995: 21900<br>
+pot: 4100<br>
+Jammy wins 4100 with High Card
+
+### Game: 5-card double draw / Deuces Wild
+
+MadGraNny: 20800<br>
+Bighead: 19950<br>
+andy5995: 20000<br>
+Jammy: 19250<br>
+pot: 1200<br>
+Bighead wins 1200 with Three-of-a-Kind
+
+### Game: 7-card stud / Deuces Wild
+
+Bighead: 20800<br>
+andy5995: 19650<br>
+Jammy: 18900<br>
+MadGraNny: 20650<br>
+pot: 2000<br>
+andy5995 wins 2000 with Pair
+
+### Game: 5-card showdown
+
+andy5995: 20800<br>
+Jammy: 18050<br>
+MadGraNny: 20500<br>
+Bighead: 20650<br>
+pot: 500<br>
+Bighead wins 500 with Pair
+
+### Game: 6-card stud / Deuces Wild
+
+Jammy: 17900<br>
+MadGraNny: 20350<br>
+Bighead: 21000<br>
+andy5995: 20750<br>
+pot: 1400<br>
+andy5995 wins 1400
+
+### Game: 7-card stud / Deuces Wild
+
+MadGraNny: 20200<br>
+Bighead: 20850<br>
+andy5995: 21600<br>
+Jammy: 17350<br>
+pot: 5400<br>
+Jammy wins 5400 with Straight
+
+### Game: 5-card stud / Deuces Wild
+
+Bighead: 20800<br>
+andy5995: 19000<br>
+Jammy: 20150<br>
+MadGraNny: 20050<br>
+pot: 2600<br>
+Jammy wins 2600 with Pair
+
+### Game: 5-card showdown
+
+andy5995: 18100<br>
+Jammy: 21850<br>
+MadGraNny: 19400<br>
+Bighead: 20650<br>
+pot: 200<br>
+andy5995 wins 200 with High Card
+
+### Game: 5-card double draw
+
+Jammy: 21800<br>
+MadGraNny: 19350<br>
+Bighead: 20600<br>
+andy5995: 18250<br>
+pot: 2350<br>
+Bighead wins 2350 with Three-of-a-Kind
+
+### Game: California lowball / Deuces Wild
+
+MadGraNny: 18700<br>
+Bighead: 22300<br>
+andy5995: 17850<br>
+Jammy: 21150<br>
+pot: 2100<br>
+Bighead wins 2100 with High Card
+
+### Game: 7-card stud
+
+Bighead: 23750<br>
+andy5995: 17200<br>
+Jammy: 21000<br>
+MadGraNny: 18050<br>
+pot: 6200<br>
+Jammy wins 6200 with Full House
+
+### Game: 5-card showdown
+
+andy5995: 17150<br>
+Jammy: 24150<br>
+MadGraNny: 15000<br>
+Bighead: 23700<br>
+pot: 1200<br>
+Bighead wins 1200 with Pair
+
+### Game: 6-card stud
+
+Jammy: 24100<br>
+MadGraNny: 14450<br>
+Bighead: 24350<br>
+andy5995: 17100<br>
+pot: 1500<br>
+Jammy wins 1500 with Pair
+
+### Game: 5-card draw / Deuces Wild
+
+MadGraNny: 13850<br>
+Bighead: 24300<br>
+andy5995: 16850<br>
+Jammy: 25000<br>
+pot: 1000<br>
+Bighead wins 1000 with Two Pair
+
+### Game: 5-card draw / Deuces Wild
+
+Bighead: 25050<br>
+andy5995: 16600<br>
+Jammy: 24750<br>
+MadGraNny: 13600<br>
+pot: 3400<br>
+Jammy wins 3400 with Full House
+
+### Game: 5-card showdown
+
+andy5995: 15750<br>
+Jammy: 27300<br>
+MadGraNny: 12750<br>
+Bighead: 24200<br>
+pot: 200<br>
+andy5995 wins 200 with Pair
+
