@@ -2014,3 +2014,75 @@ andy5995: 20000<br>
 pot: 1700<br>
 Jammy wins 1700 with Pair
 
+## 2026-04-01
+
+### Game: 7-card stud
+
+andy5995: 20000<br>
+Jammy: 20000<br>
+pot: 1450<br>
+Jammy wins 1450
+
+### Game: 5-card draw
+
+Jammy: 20600<br>
+andy5995: 19400<br>
+pot: 550<br>
+Jammy wins 550
+
+### Game: 6-card stud
+
+andy5995: 19250<br>
+Jammy: 20750<br>
+pot: 600<br>
+andy5995 wins 600
+
+### Game: 5-card draw / Deuces Wild
+
+Jammy: 20500<br>
+andy5995: 19500<br>
+pot: 1800<br>
+andy5995 wins 1800 with Straight
+
+### Game: California lowball
+
+andy5995: 20400<br>
+Jammy: 19600<br>
+pot: 300<br>
+andy5995 wins 300
+
+### Game: Texas Hold'em
+
+Jammy: 19450<br>
+andy5995: 20550<br>
+pot: 1100<br>
+Jammy wins 1100 with Straight
+
+### Game: Texas Hold'em
+
+Jammy: 20000<br>
+andy5995: 20000<br>
+pot: 1100<br>
+andy5995 wins 1100 with Pair
+
+### Game: 5-card double draw / Deuces Wild
+
+andy5995: 20550<br>
+Jammy: 19450<br>
+pot: 1300<br>
+andy5995 wins 1300 with Five-of-a-Kind
+
+### Game: 6-card stud / Deuces Wild
+
+Jammy: 18800<br>
+andy5995: 21200<br>
+pot: 1100<br>
+Jammy wins 1100 with Pair
+
+### Game: 7-card stud / Deuces Wild
+
+andy5995: 20650<br>
+Jammy: 19350<br>
+pot: 5000<br>
+andy5995 wins 5000 with Full House
+
