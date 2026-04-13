@@ -2086,3 +2086,40 @@ Jammy: 19350<br>
 pot: 5000<br>
 andy5995 wins 5000 with Full House
 
+## 2026-04-06
+
+### Game: 5-card draw
+
+Tord: 20000<br>
+andy5995: 20000<br>
+pot: 1800<br>
+andy5995 wins 1800 with Two Pair
+
+### Game: 7-card stud
+
+andy5995: 20900<br>
+Tord: 19100<br>
+pot: 1300<br>
+andy5995 wins 1300 with Three-of-a-Kind
+
+### Game: 5-card draw / Deuces Wild
+
+Tord: 18450<br>
+andy5995: 21550<br>
+pot: 550<br>
+andy5995 wins 550
+
+### Game: 5-card draw
+
+Tord: 18300<br>
+andy5995: 21700<br>
+pot: 1300<br>
+andy5995 wins 1300 with Two Pair
+
+### Game: 5-card stud
+
+andy5995: 22350<br>
+Tord: 17650<br>
+pot: 2300<br>
+Tord wins 2300 with Pair
+
