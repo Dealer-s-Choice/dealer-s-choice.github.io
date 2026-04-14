@@ -1,5 +1,9 @@
 # Screenshots
 
+[![dealers_choice_v0.0.12_5-card-draw-deuces-wild-2.png](dealers_choice_v0.0.12_5-card-draw-deuces-wild-2.png)](dealers_choice_v0.0.12_5-card-draw-deuces-wild-2.png)
+
+[![dealers_choice_v0.0.12_5-card-draw-deuces-wild-3.png](dealers_choice_v0.0.12_5-card-draw-deuces-wild-3.png)](dealers_choice_v0.0.12_5-card-draw-deuces-wild-3.png)
+
 [![dealers_choice_v0.0.12_5-card-draw-deuces-wild.png](dealers_choice_v0.0.12_5-card-draw-deuces-wild.png)](dealers_choice_v0.0.12_5-card-draw-deuces-wild.png)
 
 [![dealers_choice_v0.0.12_6-card-stud-incomplete.png](dealers_choice_v0.0.12_6-card-stud-incomplete.png)](dealers_choice_v0.0.12_6-card-stud-incomplete.png)
