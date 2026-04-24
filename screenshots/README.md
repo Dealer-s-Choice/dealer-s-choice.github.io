@@ -1,26 +1,16 @@
 # Screenshots
 
-[![dealers_choice_v0.0.12_5-card-draw-deuces-wild-2.png](dealers_choice_v0.0.12_5-card-draw-deuces-wild-2.png)](dealers_choice_v0.0.12_5-card-draw-deuces-wild-2.png)
+[![6-card-stud_v0.0.13.png](6-card-stud_v0.0.13.png)](6-card-stud_v0.0.13.png)
 
-[![dealers_choice_v0.0.12_5-card-draw-deuces-wild-3.png](dealers_choice_v0.0.12_5-card-draw-deuces-wild-3.png)](dealers_choice_v0.0.12_5-card-draw-deuces-wild-3.png)
+[![Screenshot_2026-04-23_18-27-30.png](Screenshot_2026-04-23_18-27-30.png)](Screenshot_2026-04-23_18-27-30.png)
 
-[![dealers_choice_v0.0.12_5-card-draw-deuces-wild.png](dealers_choice_v0.0.12_5-card-draw-deuces-wild.png)](dealers_choice_v0.0.12_5-card-draw-deuces-wild.png)
-
-[![dealers_choice_v0.0.12_6-card-stud-incomplete.png](dealers_choice_v0.0.12_6-card-stud-incomplete.png)](dealers_choice_v0.0.12_6-card-stud-incomplete.png)
-
-[![dealers_choice_v0.0.12_6-card-stud.png](dealers_choice_v0.0.12_6-card-stud.png)](dealers_choice_v0.0.12_6-card-stud.png)
-
-[![dealers_choice_v0.0.12_7-card-stud-5-players.png](dealers_choice_v0.0.12_7-card-stud-5-players.png)](dealers_choice_v0.0.12_7-card-stud-5-players.png)
+[![dealers-choice_discarding-2025-07-19.gif](dealers-choice_discarding-2025-07-19.gif)](dealers-choice_discarding-2025-07-19.gif)
 
 [![dealers_choice_v0.0.12_connect.png](dealers_choice_v0.0.12_connect.png)](dealers_choice_v0.0.12_connect.png)
 
 [![dealers_choice_v0.0.12_lobby.png](dealers_choice_v0.0.12_lobby.png)](dealers_choice_v0.0.12_lobby.png)
 
-[![dealers_choice_v0.0.12_lowball.png](dealers_choice_v0.0.12_lowball.png)](dealers_choice_v0.0.12_lowball.png)
+[![dealers_choice_v0.0.13_5-card-draw.png](dealers_choice_v0.0.13_5-card-draw.png)](dealers_choice_v0.0.13_5-card-draw.png)
 
-[![dealers_choice_v0.0.12_omaha.png](dealers_choice_v0.0.12_omaha.png)](dealers_choice_v0.0.12_omaha.png)
-
-[![dealers_choice_v0.0.12_texas-hold-em.png](dealers_choice_v0.0.12_texas-hold-em.png)](dealers_choice_v0.0.12_texas-hold-em.png)
-
-[![dealers-choice_discarding-2025-07-19.gif](dealers-choice_discarding-2025-07-19.gif)](dealers-choice_discarding-2025-07-19.gif)
+[![dealers_choice_v0.0.13_omaha.png](dealers_choice_v0.0.13_omaha.png)](dealers_choice_v0.0.13_omaha.png)
 
