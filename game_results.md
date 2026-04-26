@@ -1081,3 +1081,165 @@ Bot: 16950<br>
 pot: 100<br>
 Bot wins 100
 
+## 2026-04-26
+
+### Game: 7-card no peek
+
+Firebeavis: 20000<br>
+MadGraNny: 20000<br>
+andy5995: 20000<br>
+pot: 850<br>
+Firebeavis wins 850
+
+### Game: 7-card stud / Deuces Wild
+
+MadGraNny: 19750<br>
+andy5995: 19750<br>
+Firebeavis: 20500<br>
+pot: 3800<br>
+MadGraNny wins 3800 with Full House
+
+### Game: 7-card stud / Deuces Wild
+
+andy5995: 19550<br>
+Firebeavis: 18700<br>
+MadGraNny: 21750<br>
+pot: 3150<br>
+Firebeavis wins 3150 with Straight
+
+### Game: Omaha
+
+Firebeavis: 20800<br>
+MadGraNny: 20700<br>
+andy5995: 18500<br>
+pot: 1700<br>
+andy5995 wins 1700
+
+### Game: 5-card draw
+
+MadGraNny: 20550<br>
+andy5995: 19300<br>
+Firebeavis: 20150<br>
+pot: 950<br>
+MadGraNny wins 950 with Pair
+
+### Game: 5-card double draw
+
+andy5995: 19150<br>
+Firebeavis: 19750<br>
+MadGraNny: 21100<br>
+pot: 600<br>
+Firebeavis wins 600
+
+### Game: California lowball
+
+Firebeavis: 19950<br>
+MadGraNny: 20950<br>
+andy5995: 19100<br>
+pot: 250<br>
+MadGraNny wins 250
+
+### Game: California lowball
+
+MadGraNny: 21050<br>
+andy5995: 19050<br>
+Firebeavis: 19900<br>
+pot: 1550<br>
+MadGraNny wins 1550 with High Card
+
+### Game: 7-card stud
+
+andy5995: 18300<br>
+Firebeavis: 19850<br>
+MadGraNny: 21850<br>
+pot: 1500<br>
+andy5995 wins 1500 with Two Pair
+
+### Game: 7-card stud
+
+MadGraNny: 20000<br>
+andy5995: 19300<br>
+Firebeavis: 19350<br>
+pot: 3700<br>
+andy5995 wins 3700 with Three-of-a-Kind
+
+### Game: 5-card double draw / Deuces Wild
+
+andy5995: 21350<br>
+Firebeavis: 18950<br>
+MadGraNny: 18350<br>
+pot: 2800<br>
+andy5995 wins 2800 with Two Pair
+
+### Game: 5-card double draw / Deuces Wild
+
+Firebeavis: 18350<br>
+MadGraNny: 17250<br>
+andy5995: 23050<br>
+pot: 1350<br>
+andy5995 wins 1350 with Straight
+
+### Game: 5-card double draw / Deuces Wild
+
+andy5995: 23750<br>
+Firebeavis: 17700<br>
+MadGraNny: 17200<br>
+pot: 650<br>
+andy5995 wins 650 with Five-of-a-Kind
+
+### Game: 7-card no peek
+
+Firebeavis: 17450<br>
+MadGraNny: 17050<br>
+andy5995: 24150<br>
+pot: 1250<br>
+MadGraNny wins 1250
+
+### Game: 7-card stud
+
+MadGraNny: 17800<br>
+andy5995: 23650<br>
+Firebeavis: 17200<br>
+pot: 1200<br>
+andy5995 wins 1200 with Three-of-a-Kind
+
+### Game: California lowball
+
+andy5995: 24350<br>
+Firebeavis: 16700<br>
+MadGraNny: 17600<br>
+pot: 950<br>
+Firebeavis wins 950 with High Card
+
+### Game: 6-card stud
+
+Firebeavis: 17300<br>
+MadGraNny: 17250<br>
+andy5995: 24100<br>
+pot: 3100<br>
+andy5995 wins 3100 with Pair
+
+### Game: 5-card draw
+
+MadGraNny: 16100<br>
+andy5995: 26050<br>
+Firebeavis: 16500<br>
+pot: 1500<br>
+MadGraNny wins 1500 with Two Pair
+
+### Game: 5-card double draw / Deuces Wild
+
+andy5995: 25550<br>
+Firebeavis: 16000<br>
+MadGraNny: 17100<br>
+pot: 3350<br>
+Firebeavis wins 3350 with Straight
+
+### Game: Texas Hold'em
+
+Firebeavis: 18200<br>
+MadGraNny: 15950<br>
+andy5995: 24500<br>
+pot: 10150<br>
+andy5995 wins 10150 with Pair
+
