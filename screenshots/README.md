@@ -12,5 +12,7 @@
 
 [![dealers_choice_v0.0.13_5-card-draw.png](dealers_choice_v0.0.13_5-card-draw.png)](dealers_choice_v0.0.13_5-card-draw.png)
 
+[![dealers_choice_v0.0.13_7-card-stud-deuces-wild.png](dealers_choice_v0.0.13_7-card-stud-deuces-wild.png)](dealers_choice_v0.0.13_7-card-stud-deuces-wild.png)
+
 [![dealers_choice_v0.0.13_omaha.png](dealers_choice_v0.0.13_omaha.png)](dealers_choice_v0.0.13_omaha.png)
 
