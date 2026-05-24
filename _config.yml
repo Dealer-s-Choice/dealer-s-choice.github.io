@@ -1,0 +1,22 @@
+title: Dealer's Choice
+description: Cross-platform networked multiplayer poker — draw, stud, and community-card variants
+url: https://dealer-s-choice.github.io
+repository: Dealer-s-Choice/dealers_choice
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .github
