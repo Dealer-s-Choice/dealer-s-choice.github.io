@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="{{ '/assets/css/syntax.css' | relative_url }}">
 </head>
 <body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
   <a href="https://github.com/{{ site.repository }}"
      class="github-corner"
      title="Star this Project on GitHub"
@@ -31,26 +33,28 @@
 
   <div class="page-wrap">
     {% if site.data.project_links %}
-    <aside class="sidebar" aria-label="Project links">
-      <h2 class="sidebar-title">Project Links</h2>
-      <ul class="sidebar-nav">
-        {% for link in site.data.project_links %}
-        <li>
-          <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
-          {% if link.children %}
-          <ul>
-            {% for child in link.children %}
-            <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
-            {% endfor %}
-          </ul>
-          {% endif %}
-        </li>
-        {% endfor %}
-      </ul>
+    <aside class="sidebar">
+      <nav aria-labelledby="sidebar-heading">
+        <h2 id="sidebar-heading" class="sidebar-title">Project Links</h2>
+        <ul class="sidebar-nav">
+          {% for link in site.data.project_links %}
+          <li>
+            <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
+            {% if link.children %}
+            <ul>
+              {% for child in link.children %}
+              <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
     </aside>
     {% endif %}
 
-    <main class="page-content">
+    <main id="main-content" class="page-content" tabindex="-1">
       {{ content }}
     </main>
   </div>

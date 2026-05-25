@@ -42,10 +42,61 @@ body {
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
                Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-  font-size: 16px;
+  /* Use the user's browser default text size (typically 16px but adjustable
+   * for low-vision users). Hardcoded px would override that preference. */
+  font-size: 100%;
   line-height: 1.6;
   color: var(--fg);
   background: var(--bg);
+}
+
+/* --- accessibility ------------------------------------------------------ */
+
+/* Skip-to-content: hidden until keyboard-focused, then slides into view. */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  padding: .75rem 1rem;
+  background: var(--bg);
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: underline;
+  border: 2px solid var(--accent);
+  border-radius: 0 0 4px 0;
+  z-index: 2000;
+  transition: top 150ms ease;
+}
+.skip-link:focus {
+  top: 0;
+  outline: none;
+}
+
+/* Visible focus ring on every interactive element. The default browser
+ * ring is inconsistent across UAs and often invisible against the dark
+ * theme. */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+.github-corner:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -6px;
+}
+/* <main tabindex="-1"> takes focus when the skip link fires; we don't
+ * want a visible ring around the whole content column for that. */
+main:focus { outline: none; }
+
+/* Honor reduced-motion preference: cancel the octocat wave and the
+ * mobile auto-animation. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
 
 .page-wrap {
@@ -57,7 +108,28 @@ body {
   padding: 2.5rem 1.25rem 4rem;
 }
 
-.page-content { min-width: 0; }
+.page-content { min-width: 0; position: relative; }
+
+/* Vertical divider between sidebar and content. Sits halfway into the
+ * grid gap and fades at top + bottom so it doesn't feel like a hard wall.
+ * Hidden on mobile where the grid collapses to a single column. */
+@media (min-width: 769px) {
+  .page-content::before {
+    content: "";
+    position: absolute;
+    left: -1.25rem;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      var(--border) 10%,
+      var(--border) 90%,
+      transparent 100%
+    );
+  }
+}
 
 .sidebar {
   position: sticky;
@@ -146,6 +218,22 @@ a {
   text-decoration: none;
 }
 a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+/* WCAG: don't rely on color alone to identify links. Body content links
+ * are underlined; sidebar nav and corner ribbon stay underline-free since
+ * their role is obvious from context. */
+.page-content a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+.page-content a:hover { text-decoration-thickness: 2px; }
+.page-content h1 a,
+.page-content h2 a,
+.page-content h3 a,
+.page-content h4 a,
+.page-content h5 a,
+.page-content h6 a { text-decoration: none; }  /* anchor-link icons on headings */
 
 hr {
   border: 0;
