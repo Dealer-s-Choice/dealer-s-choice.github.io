@@ -76,7 +76,8 @@ body {
  * ring is inconsistent across UAs and often invisible against the dark
  * theme. */
 a:focus-visible,
-button:focus-visible {
+button:focus-visible,
+summary:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
   border-radius: 2px;
@@ -137,6 +138,67 @@ main:focus { outline: none; }
   align-self: start;
   font-size: .92rem;
 }
+
+/* --- mobile hamburger (HTML <details>/<summary>, no JS) ----------------- */
+
+.sidebar-disclosure > summary {
+  /* Strip the native disclosure triangle. ::marker (modern) and the
+   * ::-webkit-details-marker (Safari) both have to go. */
+  list-style: none;
+  cursor: pointer;
+}
+.sidebar-disclosure > summary::-webkit-details-marker { display: none; }
+.sidebar-disclosure > summary::marker { display: none; }
+
+.sidebar-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: .6rem;
+  padding: .5rem .85rem;
+  font-weight: 600;
+  color: var(--fg);
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  user-select: none;
+}
+.sidebar-toggle:hover { background: var(--bg); }
+
+/* Three-bar hamburger icon. Animates into an "×" when [open]. */
+.hamburger {
+  position: relative;
+  display: inline-block;
+  width: 18px;
+  height: 14px;
+}
+.hamburger::before,
+.hamburger::after,
+.hamburger {
+  background-repeat: no-repeat;
+}
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: currentColor;
+  border-radius: 2px;
+  transition: transform 200ms ease, top 200ms ease, opacity 150ms ease;
+}
+.hamburger::before { top: 0; box-shadow: 0 6px 0 currentColor; }
+.hamburger::after { top: 12px; }
+
+.sidebar-disclosure[open] .hamburger::before {
+  top: 6px;
+  transform: rotate(45deg);
+  box-shadow: none;
+}
+.sidebar-disclosure[open] .hamburger::after {
+  top: 6px;
+  transform: rotate(-45deg);
+}
 .sidebar-title {
   font-size: .75rem;
   font-weight: 600;
@@ -181,9 +243,27 @@ main:focus { outline: none; }
   }
   .sidebar {
     position: static;
-    padding-bottom: .5rem;
-    border-bottom: 1px solid var(--border);
   }
+  /* The summary already labels the nav; the visible h2 inside would
+   * just duplicate it in the open panel. */
+  .sidebar-disclosure nav .sidebar-title { display: none; }
+  /* When expanded, give the panel a soft outline so it feels like a
+   * pop-out rather than loose text bleeding into the page. */
+  .sidebar-disclosure[open] nav {
+    margin-top: .5rem;
+    padding: .75rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--bg);
+  }
+}
+
+@media (min-width: 769px) {
+  /* The hamburger is mobile-only. Nav visibility on desktop is handled
+   * by the tiny script at the end of the layout, which forces [open] on
+   * the <details> at this breakpoint so the browser's UA stylesheet
+   * shows the nav contents. */
+  .sidebar-toggle { display: none; }
 }
 
 /* The Project Links section in the synced README is duplicated by the

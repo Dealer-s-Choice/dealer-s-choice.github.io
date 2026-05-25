@@ -34,23 +34,29 @@
   <div class="page-wrap">
     {% if site.data.project_links %}
     <aside class="sidebar">
-      <nav aria-labelledby="sidebar-heading">
-        <h2 id="sidebar-heading" class="sidebar-title">Project Links</h2>
-        <ul class="sidebar-nav">
-          {% for link in site.data.project_links %}
-          <li>
-            <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
-            {% if link.children %}
-            <ul>
-              {% for child in link.children %}
-              <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
-              {% endfor %}
-            </ul>
-            {% endif %}
-          </li>
-          {% endfor %}
-        </ul>
-      </nav>
+      <details class="sidebar-disclosure">
+        <summary class="sidebar-toggle">
+          <span class="hamburger" aria-hidden="true"></span>
+          <span class="sidebar-toggle-label">Project Links</span>
+        </summary>
+        <nav aria-label="Project links">
+          <h2 class="sidebar-title">Project Links</h2>
+          <ul class="sidebar-nav">
+            {% for link in site.data.project_links %}
+            <li>
+              <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
+              {% if link.children %}
+              <ul>
+                {% for child in link.children %}
+                <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+                {% endfor %}
+              </ul>
+              {% endif %}
+            </li>
+            {% endfor %}
+          </ul>
+        </nav>
+      </details>
     </aside>
     {% endif %}
 
@@ -58,5 +64,21 @@
       {{ content }}
     </main>
   </div>
+
+  <script>
+    // Force the sidebar <details> open on desktop and let it collapse on
+    // mobile, where the hamburger summary toggles it. CSS can't reliably
+    // override the UA stylesheet for <details> visibility across browser
+    // versions (Chrome 131+ uses ::details-content), so manage the [open]
+    // attribute directly.
+    (function () {
+      var d = document.querySelector('.sidebar-disclosure');
+      if (!d) return;
+      var mq = window.matchMedia('(min-width: 769px)');
+      function sync() { d.open = mq.matches; }
+      sync();
+      mq.addEventListener('change', sync);
+    })();
+  </script>
 </body>
 </html>
