@@ -14,6 +14,23 @@
   --accent: #1f6f43;        /* poker-table green */
   --accent-hover: #134e2c;
   --code-bg: #f6f8fa;
+  --corner-bg: #151513;     /* dark triangle behind the octocat */
+  --corner-fg: #ffffff;     /* octocat body */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fg: #f5f0e1;          /* card cream */
+    --fg-muted: #9fb5a5;
+    --bg: #0e2c1c;          /* deep felt */
+    --bg-soft: #143620;
+    --border: #2a4a35;
+    --accent: #6fd49a;      /* brighter table green for link contrast */
+    --accent-hover: #a5e8c2;
+    --code-bg: #143620;
+    --corner-bg: #f5f0e1;   /* cream triangle stays visible on dark bg */
+    --corner-fg: #0e2c1c;   /* dark octocat for contrast on cream */
+  }
 }
 
 * { box-sizing: border-box; }
@@ -180,6 +197,12 @@ img {
   height: auto;
   border-radius: 4px;
 }
+/* Dark-mode only: screenshots have light backgrounds that otherwise look
+ * like cutouts. CI badges in the README get a faint outline too — minor
+ * tradeoff for the benefit on the large screenshots. */
+@media (prefers-color-scheme: dark) {
+  img { border: 1px solid var(--border); }
+}
 
 table {
   border-collapse: collapse;
@@ -204,8 +227,8 @@ tr:nth-child(2n) td { background: var(--bg-soft); }
   right: 0;
   border: 0;
   z-index: 1000;
-  color: #fff;
-  fill: #151513;
+  color: var(--corner-fg);
+  fill: var(--corner-bg);
   text-decoration: none;
 }
 .github-corner svg { display: block; }
