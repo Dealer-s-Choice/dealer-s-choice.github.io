@@ -1,0 +1,79 @@
+/* Poker-themed Rouge syntax highlighting.
+ *
+ * Palette:
+ *   table green   #1f6f43 / #2d8f5a / #4cbd7c
+ *   card red      #b81818 / #e63946 / #ff7575
+ *   chip gold     #b87800 / #e3a700 / #ffd34d
+ *   felt deep     #0e2c1c (dark bg)
+ *   card cream    #f5f0e1 (dark fg)
+ *   table light   #e9efe9 (light bg)
+ *   ink           #151513 (light fg)
+ *
+ * Class names follow Rouge's HTML output (.k = keyword, .s = string, etc.).
+ * Light theme is the default; dark theme via prefers-color-scheme: dark.
+ */
+
+/* --- shared structure --------------------------------------------------- */
+
+.highlight, .highlighter-rouge .highlight {
+  background: var(--code-bg);
+  border-radius: 6px;
+}
+.highlight pre,
+.highlight code {
+  background: transparent;
+  color: inherit;
+}
+.highlight .lineno {
+  color: var(--fg-muted);
+  padding-right: .75em;
+  user-select: none;
+}
+
+/* --- light theme (default) --------------------------------------------- */
+
+.highlight {
+  color: #151513;
+}
+.highlight .c, .highlight .c1, .highlight .cm, .highlight .cs, .highlight .cd, .highlight .cp { color: #1f6f43; font-style: italic; }   /* comments — table green */
+.highlight .k, .highlight .kc, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kt { color: #b81818; font-weight: 600; } /* keywords — card red */
+.highlight .s, .highlight .s1, .highlight .s2, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx, .highlight .sr, .highlight .ss { color: #0e6e3f; }  /* strings — deep green */
+.highlight .m, .highlight .mi, .highlight .mf, .highlight .mh, .highlight .mo, .highlight .mb, .highlight .il { color: #b87800; }  /* numbers — dark chip gold */
+.highlight .nf, .highlight .fm { color: #1b3a5b; font-weight: 600; }  /* functions — felt blue */
+.highlight .nc, .highlight .nn { color: #6a2877; font-weight: 600; }  /* classes/namespaces — deep purple */
+.highlight .nb, .highlight .bp { color: #1b3a5b; }                    /* builtins */
+.highlight .nt { color: #b81818; }                                    /* HTML/XML tags */
+.highlight .na { color: #b87800; }                                    /* attributes */
+.highlight .o, .highlight .ow { color: #151513; }                     /* operators */
+.highlight .p { color: #59636e; }                                     /* punctuation */
+.highlight .err { color: #b81818; background: #ffe0e0; }              /* errors */
+.highlight .gd { color: #b81818; background: #ffeaea; }               /* diff deleted */
+.highlight .gi { color: #0e6e3f; background: #e6f6ec; }               /* diff added */
+.highlight .gh, .highlight .gu { color: #1b3a5b; font-weight: 600; }  /* diff headers */
+.highlight .gs { font-weight: 600; }
+.highlight .ge { font-style: italic; }
+
+/* --- dark theme -------------------------------------------------------- */
+
+@media (prefers-color-scheme: dark) {
+  .highlight, .highlighter-rouge .highlight {
+    background: #0e2c1c;
+  }
+  .highlight { color: #f5f0e1; }
+
+  .highlight .c, .highlight .c1, .highlight .cm, .highlight .cs, .highlight .cd, .highlight .cp { color: #6cbf8a; font-style: italic; }
+  .highlight .k, .highlight .kc, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kt { color: #ff7575; font-weight: 600; }
+  .highlight .s, .highlight .s1, .highlight .s2, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx, .highlight .sr, .highlight .ss { color: #ffd34d; }
+  .highlight .m, .highlight .mi, .highlight .mf, .highlight .mh, .highlight .mo, .highlight .mb, .highlight .il { color: #f5f0e1; }
+  .highlight .nf, .highlight .fm { color: #7fc3d6; font-weight: 600; }
+  .highlight .nc, .highlight .nn { color: #d49bff; font-weight: 600; }
+  .highlight .nb, .highlight .bp { color: #7fc3d6; }
+  .highlight .nt { color: #ff7575; }
+  .highlight .na { color: #ffd34d; }
+  .highlight .o, .highlight .ow { color: #f5f0e1; }
+  .highlight .p { color: #b5c2b5; }
+  .highlight .err { color: #ffb5b5; background: #4a1a1a; }
+  .highlight .gd { color: #ffb5b5; background: #3a1a1a; }
+  .highlight .gi { color: #b5e8c9; background: #103a25; }
+  .highlight .gh, .highlight .gu { color: #7fc3d6; font-weight: 600; }
+}

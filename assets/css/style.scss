@@ -1,3 +1,8 @@
+---
+# Jekyll front matter (empty) — required for Jekyll to process this file.
+# Without it, this static .scss would be served verbatim and would not shadow
+# the github-pages-default jekyll-theme-primer's assets/css/style.scss.
+---
 /* --- base --------------------------------------------------------------- */
 
 :root {
@@ -26,11 +31,81 @@ body {
   background: var(--bg);
 }
 
-.page-content {
-  max-width: 820px;
+.page-wrap {
+  display: grid;
+  grid-template-columns: minmax(180px, 220px) minmax(0, 820px);
+  gap: 2.5rem;
+  max-width: 1120px;
   margin: 0 auto;
   padding: 2.5rem 1.25rem 4rem;
 }
+
+.page-content { min-width: 0; }
+
+.sidebar {
+  position: sticky;
+  top: 1rem;
+  align-self: start;
+  font-size: .92rem;
+}
+.sidebar-title {
+  font-size: .75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--fg-muted);
+  margin: 0 0 .6rem;
+  padding-bottom: .4rem;
+  border-bottom: 1px solid var(--border);
+}
+.sidebar-nav, .sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sidebar-nav li { margin: 0; }
+.sidebar-nav > li + li { margin-top: .15rem; }
+.sidebar-nav a {
+  display: block;
+  padding: .25rem .5rem;
+  border-radius: 4px;
+  color: var(--fg);
+}
+.sidebar-nav a:hover {
+  background: var(--bg-soft);
+  color: var(--accent-hover);
+  text-decoration: none;
+}
+.sidebar-nav ul {
+  margin: .15rem 0 .25rem .9rem;
+  border-left: 1px solid var(--border);
+  padding-left: .35rem;
+}
+.sidebar-nav ul a { font-size: .88rem; color: var(--fg-muted); }
+.sidebar-nav ul a:hover { color: var(--accent-hover); }
+
+@media (max-width: 768px) {
+  .page-wrap {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding-top: 1.5rem;
+  }
+  .sidebar {
+    position: static;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid var(--border);
+  }
+}
+
+/* The Project Links section in the synced README is duplicated by the
+ * sidebar nav, so hide it (and only it) in the rendered page. The README
+ * source stays clean for github.com viewers. Rule un-hides everything from
+ * the next h2 onward, so it survives if other content gets added between
+ * the heading and the list. */
+.page-content #project-links,
+.page-content #project-links ~ * { display: none; }
+.page-content #project-links ~ h2,
+.page-content #project-links ~ h2 ~ * { display: revert; }
 
 /* --- typography --------------------------------------------------------- */
 
