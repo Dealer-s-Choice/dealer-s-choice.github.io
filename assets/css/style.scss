@@ -276,6 +276,11 @@ main:focus { outline: none; }
 .page-content #project-links ~ h2,
 .page-content #project-links ~ h2 ~ * { display: revert; }
 
+/* CI badges at the top of the README are useful on github.com but
+ * decorative noise on the rendered site. Hide the whole paragraph that
+ * contains them — the badge image URLs all end in `badge.svg`. */
+.page-content p:has(> a > img[src$="badge.svg"]) { display: none; }
+
 /* --- typography --------------------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
