@@ -1,3 +1,5 @@
+- title: Home
+  url: /
 - title: Source Code
   url: https://github.com/Dealer-s-Choice/dealers_choice
   children:
