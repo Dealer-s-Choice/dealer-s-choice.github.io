@@ -227,6 +227,11 @@ main:focus { outline: none; }
   color: var(--accent-hover);
   text-decoration: none;
 }
+/* Visual counterpart to the layout's aria-current="page", which otherwise
+ * cues screen readers only. Weight rather than colour, so the cue survives
+ * colour-vision deficiency and a monochrome render, and needs no contrast
+ * check of its own — the link keeps its existing --fg colour. */
+.sidebar-nav a[aria-current="page"] { font-weight: 600; }
 .sidebar-nav ul {
   margin: .15rem 0 .25rem .9rem;
   border-left: 1px solid var(--border);
