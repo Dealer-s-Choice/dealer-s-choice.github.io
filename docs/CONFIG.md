@@ -77,23 +77,33 @@ connect.attempts = 6 # Number of connection attempts before giving up
 
 ## Server browser
 
-The connect screen lists internet servers by asking the registries in
-`common.conf` (see the [registry guide](REGISTRY.md)). To stop the client from
-contacting any registry, set:
-
-```
-registry_browser = no
-```
-
-The default is `yes`. You can also change this on the Settings screen, or turn
-it off for one run from the command line:
+The connect screen lists internet servers by asking the registries named in
+`common.conf` (see the [registry guide](REGISTRY.md)). That file is not
+installed, so out of the box there are no registries and the list stays empty —
+creating it is how you opt in. To stop the client contacting a registry for one
+run, start it with:
 
 ```
 dealers-choice --disable-registry-browser
 ```
 
 This only affects the internet server list. LAN discovery is separate and is
-not changed by this setting.
+not changed by it.
+
+## LAN discovery port
+
+The client and the servers on your LAN must agree on one UDP port, which
+defaults to 22787. Change it only if that port is already taken, and change it
+on every machine:
+
+```
+dealers-choice --discovery-port 22800
+dealers-choice-server --discovery-port 22800
+```
+
+The same setting can live in `common.conf` as `lan_discovery_port`, which is
+useful when several machines share a data directory. The flag wins over the
+file.
 
 ## Language
 

@@ -4,8 +4,20 @@
 publish themselves to it, and clients can browse the list to find internet
 games (the LAN-only equivalent is built into the game and needs no registry).
 
-> **Status: experimental.** Like the dedicated server, the registry is new and
-> lightly tested. Run one only if you are comfortable with that.
+> ⚠️ **Experimental, and in maintenance mode.** No public registry is being
+> run; the code is kept building and tested but is not being developed further
+> for now.
+>
+> The server and networking code was primarily written by an LLM and has
+> not been fully reviewed by a human network security expert. Any instructions
+> regarding running the server should take that into account. This project
+> attempts to use rigorous testing methods and anticipate security issues but,
+> like any project, cannot guarantee the programs here are free of potential
+> vulnerabilities.
+>
+> Run one on a LAN or another network whose members you know. Hosting on the
+> public internet is at your own risk until the code has had an independent
+> review.
 
 ## What it does
 
@@ -17,6 +29,18 @@ games (the LAN-only equivalent is built into the game and needs no registry).
 - Listings expire if the server stops sending heartbeats.
 - The registry writes the current list to a JSON file (`--json <path>`) that a
   website can serve, and answers list requests from clients.
+
+## Building it
+
+The registry is **not built or installed by default** — most people running the
+game never host a directory server. Turn it on at configure time:
+
+```
+meson setup _build -Dregistry=true
+```
+
+(The wire parsers it shares with the client and server are always built and
+tested; only the `dealers-choice-registry` program is gated.)
 
 ## Running it
 
@@ -31,9 +55,15 @@ to the game port players already use.
 
 ## Configuring which registries to use
 
-The list of registries lives in **`common.conf`** (in the data directory),
-read by both the game client (to show internet servers on the connect screen)
-and the headless server (to publish itself):
+The list of registries lives in **`common.conf`**, read by both the game client
+(to show internet servers on the connect screen) and the headless server (to
+publish itself).
+
+**`common.conf` is not installed.** Creating it is how you opt in: copy the
+template from the source tree's `data/common.conf` into the installed data
+directory — the one holding `server.conf`, typically
+`/usr/share/dealers-choice/` — and uncomment a registry line. With no
+`common.conf` the game is LAN-only, which is the default:
 
 ```ini
 # common.conf
@@ -43,13 +73,12 @@ registry = 203.0.113.5, 22071
 
 One registry per line (dnsmasq-style): the host is the value, with an optional
 port as a comma attribute (default 22070). Repeat the line for more registries.
-The headless server publishes to every listed registry unless started with
-`--disable-publish`. Leave it commented out for LAN-only play.
+The headless server publishes to every registry listed here; with none listed it
+publishes nowhere.
 
-The client browses these registries by default. To stop the client from
-contacting any registry (it will then show only LAN servers), set
-`registry_browser = no` in `player.conf`, change it on the Settings screen, or
-run the client with `--disable-registry-browser`. See [CONFIG.md](CONFIG.md).
+The client browses whatever is listed here. To stop it contacting a registry for
+one run (it will then show only LAN servers), start it with
+`--disable-registry-browser`.
 
 ## Privacy — what is and isn't stored
 
